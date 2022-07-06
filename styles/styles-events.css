@@ -1,5 +1,5 @@
 .events__container {
-    background-image: url('images/events-cover.jpg');
+    background-image: url('/images/events-cover.jpg');
     margin: 0 auto;
 }
 
@@ -31,33 +31,33 @@
 }
 
 .event.one {
-    background-image: url('images/event-one.jpg');
+    background-image: url('/images/event-one.jpg');
 }
 
 .event.two {
-    background-image: url('images/event-two.jpg');
+    background-image: url('/images/event-two.jpg');
 }
 
 .event.three {
-    background-image: url('images/event-three.jpg');
+    background-image: url('/images/event-three.jpg');
 }
 
 .event.four {
-    background-image: url('images/event-four.jpg');
+    background-image: url('/images/event-four.jpg');
 }
 
 .event.five {
-    background-image: url('images/event-five.jpg');
+    background-image: url('/images/event-five.jpg');
 }
 
 .event.six {
-    background-image: url('images/event-six.jpg');
+    background-image: url('/images/event-six.jpg');
 }
 
 .event.seven {
-    background-image: url('images/event-seven.jpg');
+    background-image: url('/images/event-seven.jpg');
 }
 
 .event.eight {
-    background-image: url('images/event-eight.jpg');
+    background-image: url('/images/event-eight.jpg');
 }

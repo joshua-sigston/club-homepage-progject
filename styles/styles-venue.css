@@ -1,5 +1,5 @@
 .venue__container {
-    background-image: url('images/venue-cover.jpg');
+    background-image: url('/images/venue-cover.jpg');
     grid-template-columns: 50% 50%;
     grid-template-rows: repeat(5, 1fr);
     margin: 0 auto;
