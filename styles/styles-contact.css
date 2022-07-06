@@ -1,0 +1,71 @@
+.contact__container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    background-image: url('images/contact-cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact__sub-container {
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__title, .contact__phone-email, .contact__social-media {
+    height: 100%;
+}
+
+.contact__title, .contact__phone-email {
+    border-right: 5px solid white;
+}
+
+.contact__title {
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__phone-email {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email, .phone {
+    text-align: center;
+}
+
+.phone, .media__links {
+    margin-top: 1.5rem;
+}
+
+.contact__social-media {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media__links {
+    height: 50%;
+    justify-content: space-around;
+}
+
+.media__links a {
+    width: 100%;
+    text-align: center;
+    transition: .6s ease-in-out;
+}
+
+.media__links i {
+    color: var(--font-clr);
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.media__links a:hover {
+    transform: scaleY(1.4);
+   
+}
+
+.media__links i:hover {
+    color: #4CD3C2;
+}

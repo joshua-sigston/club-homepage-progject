@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css styles -->
+    <link rel="stylesheet" href="/styles/styles-general.css">
+    <link rel="stylesheet" href="/styles/styles-welcome.css">
+    <link rel="stylesheet" href="/styles/styles-venue.css">
+    <link rel="stylesheet" href="styles/styles-events.css">
+    <link rel="stylesheet" href="/styles/styles-booking.css">
+    <link rel="stylesheet" href="/styles/styles-contact.css">
+    <link rel="stylesheet" href="/styles/styles-nav.css">
+    <link rel="stylesheet" href="/styles/styles-media.css">
+    <title>The L!fe</title>
+</head>
+<body>
+
+    <main> 
+
+        <section class="welcome__container container flex" id="welcome">
+            <h1>The L<strong>!</strong>fe</h1>
+        </section>
+
+        <section class="venue__container container grid" id="venue">
+            <div class="venue__title flex flex__column">
+                <h1>The Venue</h1>
+                <div class="hours__container">
+                    <h3>Hours</h3>
+                    <p>Mon-Thur: 11am - 10pm</p>
+                    <p>Fri-Sat: 5pm - 3am</p>
+                </div>
+            </div>
+            <div class="venue__menu flex flex__column">
+                <h3>Gallery</h3>
+                <h3>The Layout</h3>
+                <h3>The Music</h3>
+                <h3>Menu</h3>
+            </div>
+
+        </section>
+
+        <section class="events__container container flex flex__column" id="events">
+            <h1>Things To Come</h1>
+            <div class="calendar__container grid grid__column">
+                <div class="event one flex flex__column"><h3>May 07</h3><p>Lorem, ipsum.</p></div>
+                <div class="event two flex flex__column"><h3>June 15</h3><p>blanditiis ipsa libero</p></div>
+                <div class="event three flex flex__column"><h3>July 04</h3><p>ipsa libero repellendus</p></div>
+                <div class="event four flex flex__column"><h3>Sept 23</h3><p>eligendi molestiae</p></div>
+                <div class="event five flex flex__column"><h3>Oct 10</h3><p>maxime quibusdam</p></div>
+                <div class="event six flex flex__column"><h3>Oct 31</h3><p>Nihil soluta atque</p></div>
+                <div class="event seven flex flex__column"><h3>Nov 15</h3><p>voluptas totam</p></div>
+                <div class="event eight flex flex__column"><h3>Dec 01</h3><p>amet consectetur</p></div>
+            </div>
+        </section>
+
+        <section class="booking__container container flex" id="book">
+            <div class="reservation__container">
+                <h3>Make A Reservation</h3>
+                <div class="form__container flex flex__column">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="contact-reservation">Contact:</label>
+                    <input type="text" name="contact-reservation" id="contact-reservation">
+                    <label for="date-reservation">Date:</label>
+                    <input type="date" name="date-reservation" id="date-reservation">
+                    <div class="checkbox__container">
+                        <p>Reservation Type</p>
+                        <label for="type-vip">VIP</label>
+                        <input type="checkbox" name="type-vip" id="type-vip">
+                        <label for="type-regular">Regular</label>
+                        <input type="checkbox" name="type-regular" id="type-regular">
+                    </div>
+                    <label for="consideration">Special Consideration</label>
+                    <textarea name="consideration" id="consideration" cols="30" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="performance__container flex flex__column">
+                <h3>Book Your Performance</h3>
+                <div class="form__container flex flex__column">
+                    <label for="band-name">Band Name:</label>
+                    <input type="text">
+                    <label for="contact-performance">Contact:</label>
+                    <input type="contact-performance">
+                    <label for="date-performance">Date:</label>
+                    <input type="date" name="date-performance" id="date-performance">
+                    <label for="music-type">Special Consideration</label>
+                    <textarea name="music-type" id="music-type" cols="30" rows="4"></textarea>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact__container container grid" id="contact">
+            <div class="contact__title flex">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact__phone-email flex">
+                <div class="contact__sub-container flex flex__column">
+                    <div class="email">
+                        <h1>Email</h1>
+                        <p>something.someone@somwhere.com</p>
+                    </div>
+                    <div class="phone">
+                        <h1>Phone</h1>
+                        <p>000-111-2233</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__social-media flex flex__column">
+                <div class="contact__sub-container flex flex__column">
+                    <h1>Media</h1>
+                <div class="media__links flex flex__column">
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <nav class="nav__container container flex">
+        <div class="nav__top flex">
+            <p class="venue__top">Venue</p>
+            <p class="events__top">Events</p>
+            <p class="book__top">Book</p>
+            <p class="contact__top">Contact</p>
+            <p class="home__top">Home</p>
+        </div>
+        <div class="nav__bottom-links flex">
+            <a href="#venue" class="nav__item">Venue</a>
+            <a href="#events" class="nav__item">Events</a>
+            <a href="#book" class="nav__item">Book</a>
+            <a href="#contact" class="nav__item">Contact</a> 
+            <a href="#welcome" class="nav__item">Home</a>
+        </div>
+    </nav>
+
+</body>
+</html>

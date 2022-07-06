@@ -1,0 +1,27 @@
+.booking__container {
+    background-image: url('images/booking-cover.jpg');
+    padding-top: 5%;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form__container {
+    margin-top: 1.2rem;
+}
+
+.form__container label, .form__container p {
+    margin: .6rem 0;
+    font-size: 1.5rem;
+}
+
+.checkbox__container {
+    margin-top: .6rem;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+}
+
+.checkbox__container input {
+    margin: 0 .6rem;
+    color: black;
+}

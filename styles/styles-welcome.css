@@ -1,0 +1,12 @@
+.welcome__container {
+    background-image: url('images/welcome-cover.jpg');
+}
+
+.welcome__container h1 {
+    letter-spacing: 5px;
+}
+
+.welcome__container strong {
+    font-size: 5rem;
+    color: var(--accent-clr-sec);
+}

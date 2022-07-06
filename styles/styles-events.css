@@ -1,0 +1,63 @@
+.events__container {
+    background-image: url('images/events-cover.jpg');
+    margin: 0 auto;
+}
+
+.calendar__container {
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+
+    justify-items: center;
+    align-content: center;
+}
+
+.event {
+    height: 250px;
+    width: 300px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.event p {
+    font-size: 1.3rem;
+    color: var(--accent-clr-sec);
+}
+
+.event.one {
+    background-image: url('images/event-one.jpg');
+}
+
+.event.two {
+    background-image: url('images/event-two.jpg');
+}
+
+.event.three {
+    background-image: url('images/event-three.jpg');
+}
+
+.event.four {
+    background-image: url('images/event-four.jpg');
+}
+
+.event.five {
+    background-image: url('images/event-five.jpg');
+}
+
+.event.six {
+    background-image: url('images/event-six.jpg');
+}
+
+.event.seven {
+    background-image: url('images/event-seven.jpg');
+}
+
+.event.eight {
+    background-image: url('images/event-eight.jpg');
+}

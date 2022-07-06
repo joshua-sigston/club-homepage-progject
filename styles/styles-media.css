@@ -1,0 +1,87 @@
+@media screen and (max-width: 280px) {
+    p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .venue__menu {
+    text-align: center;
+    }
+
+    .event {
+        height: 150px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .venue__title h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contact__container {
+        height: fit-content;
+        padding: 1.2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__title, .contact__phone-email {
+        border-right: none;
+    }
+
+    .contact__title, .contact__phone-email, .contact__social-media, .media__links i{
+        margin: 1.2rem auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .booking__container {
+        height: fit-content;
+
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .performance__container {
+        margin: 1.2rem auto;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .contact__title h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    main {
+        scroll-snap-type:none;
+    }
+
+    .events__container {
+        height: fit-content;
+    }
+
+    .calendar__container {
+        margin: 1.2rem auto;
+        
+    }
+}

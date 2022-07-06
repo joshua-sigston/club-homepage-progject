@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'League Gothic', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bck-grnd: #0A97B0;
+    --font-clr: #FAEEE7;
+    --accent-clr: #4CD3C2;
+    --accent-clr-sec: #F54291;
+    --transition: 0.6s ease-in-out;
+}
+
+body {
+    color: var(--font-clr);
+}
+
+main {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    scroll-snap-align: start;
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__column {
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid__column {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

@@ -1,0 +1,63 @@
+.nav__container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0A97B0;
+}
+
+.nav__top {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav__bottom-links {
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav__container p {
+    
+    font-size: 2rem;
+    transition: 0.6s ease-in-out;
+    z-index: 2;
+}
+
+.venue__top {
+    left: 57px;
+}
+
+.events__top {
+    left: 64px;
+}
+
+.book__top {
+    left: 45px;
+}
+
+.home__top {
+    left: 53px;
+}
+
+.contact__top {
+    left: 73px;
+}
+
+.nav__item {
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+}
+
+.nav__container p:hover {
+    cursor: pointer;
+    transform: translateY(-3rem) scale(1.8);
+    color: var(--accent-clr-sec);
+    z-index: 2;
+}
