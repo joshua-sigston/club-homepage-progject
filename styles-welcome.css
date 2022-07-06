@@ -1,5 +1,5 @@
 .welcome__container {
-    background-image: url('/images/welcome-cover.jpg');
+    background-image: url('images/welcome-cover.jpg');
 }
 
 .welcome__container h1 {

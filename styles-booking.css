@@ -1,5 +1,5 @@
 .booking__container {
-    background-image: url('/images/booking-cover.jpg');
+    background-image: url('images/booking-cover.jpg');
     padding-top: 5%;
 
     justify-content: space-around;
